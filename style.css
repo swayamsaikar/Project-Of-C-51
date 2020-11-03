@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Itim&display=swap");
+
+* {
+  font-family: "Itim", cursive;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+ul {
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+.menu,
+a {
+  text-decoration: none;
+  outline: none;
+  font-size: 20px;
+  padding: 20px;
+  color: rgba(160, 138, 138, 0.815);
+  font-family: "Roboto Mono", monospace;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #201d1d;
+  flex-wrap: wrap;
+}
+
+.menu,
+a:hover {
+  text-decoration: none;
+  outline: none;
+  color: #7b4195;
+
+  padding: 20px;
+}
+
+p {
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+body {
+  background: rgb(231, 225, 225);
+  flex-wrap: wrap;
+}
+
+.more-about {
+  color: rgb(65, 88, 88);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: justify;
+  flex-wrap: wrap;
+
+  margin-left: 50px;
+}
